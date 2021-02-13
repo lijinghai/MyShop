@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cat/cat",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/new-detail/new-detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "琦琦小货",
+    "navigationBarBackgroundColor": "#CD3333",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#CD3333",
+    "color": "#C0C0C0",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/2.png",
+        "selectedIconPath": "static/icon/2-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cat/cat",
+        "iconPath": "static/icon/3.png",
+        "selectedIconPath": "static/icon/3-active.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/4.png",
+        "selectedIconPath": "static/icon/4-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap23.json"
+}

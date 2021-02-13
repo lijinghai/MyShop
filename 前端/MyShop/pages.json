@@ -1,0 +1,103 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+			
+		}
+	    ,{
+            "path" : "pages/cat/cat"
+            
+            
+        }
+        ,{
+            "path" : "pages/member/member"
+           
+            
+        }
+        ,{
+            "path" : "pages/news/news"
+           
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText":"商品列表",
+				// 开启下拉刷新
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/new-detail/new-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资讯详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "琦琦小货",
+		"navigationBarBackgroundColor": "#CD3333",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#CD3333",  //被选中的字体颜色
+		"color":"#C0C0C0",      //未选中时的颜色
+		"list": [
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"text":"资讯",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/icon/2.png",
+				"selectedIconPath":"static/icon/2-active.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/cat/cat",
+				"iconPath":"static/icon/3.png",
+				"selectedIconPath":"static/icon/3-active.png"
+			},
+			{
+				"text":"会员",
+				"pagePath":"pages/member/member",
+				"iconPath":"static/icon/4.png",
+				"selectedIconPath":"static/icon/4-active.png"
+			}
+		]
+	}
+}
